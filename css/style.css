@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    color: white;
+    background: rgb(5,2,51);
+    background: linear-gradient(330deg, rgba(5,2,51,1) 50%, rgba(45,23,155,1) 50%);
+    font-family: 'Raleway', sans-serif;
+}
+
+.avatar{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+h1 {
+    font-family: 'Architects Daughter';
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+.profile {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.social img {
+    width: 33px;
+    margin: 20px 0;
+}
+
+.links-list {
+    list-style: none;
+}
+
+.links-list li {
+    margin: 10px 20px;
+}
+
+.links-list li a {
+    background-color: white;
+    padding: 15px 20px;
+    display: block;
+    border-radius: 35px;
+    text-decoration: none;
+    color: rgb(22, 11, 78);
+    font-weight: bold;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.links-list li a span {
+    color: gray;
+    display: block;
+    margin-top: 10px;
+}
+
+.footer {
+    font-style: italic;
+    text-align: center;
+    font-size: 12px;
+    background-color: black;
+    margin-top: 16%;
+}
+
